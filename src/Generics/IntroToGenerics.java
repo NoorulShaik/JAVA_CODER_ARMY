@@ -1,3 +1,5 @@
+package Generics;
+
 public class IntroToGenerics {
     /*
     Limitations of using Object as Universal TYpe
@@ -23,7 +25,7 @@ public class IntroToGenerics {
 }
 class Box{
     private Object value;
-    //Box will store anytype of value
+    //Generics.Box will store anytype of value
     Box(Object value){
         this.value = value;
 

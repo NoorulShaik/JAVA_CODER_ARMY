@@ -1,15 +1,17 @@
+package Generics;
+
 public class Generics {
     /*
-    Generics help us avoid the runtime exceptions!!
+    Generics.Generics help us avoid the runtime exceptions!!
      */
     public static void main(String[] args) {
-//    Boxx<Integer> b = new Boxx<>(78); //type argument
-//    Boxx<String> s = new Boxx<>("Noorul"); //type argument
-//    Boxx<Boolean> bo = new Boxx<>(true); //type argument
+//    Generics.Boxx<Integer> b = new Generics.Boxx<>(78); //type argument
+//    Generics.Boxx<String> s = new Generics.Boxx<>("Noorul"); //type argument
+//    Generics.Boxx<Boolean> bo = new Generics.Boxx<>(true); //type argument
 //        System.out.println(b.getValue() + 5);
 
 
-//        Pair<Integer> p = new Pair<>(4,5);
+//        Generics.Pair<Integer> p = new Generics.Pair<>(4,5);
         Pairr<Integer,String> p = new Pairr<>(20,"Noorul");
           System.out.println(p.first + " " + p.second);
     }

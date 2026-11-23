@@ -1,3 +1,5 @@
+package Generics;
+
 public class GenericMethods {
     public static void main(String[] args) {
     String y = getResult("Noorul");

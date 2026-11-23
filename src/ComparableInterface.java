@@ -13,6 +13,7 @@ public class ComparableInterface {
     for(Std student : list){
         System.out.println(student.roll + " " + student.name);
     }
+    //Collections.rotate(list ,2);
     //System.out.println(list);
 //    List<Integer> li = new ArrayList<>();
 //    li.add(4);
